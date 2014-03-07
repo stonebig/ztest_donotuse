@@ -78,7 +78,7 @@ select cand_nm, contbr_st, sum(contb_receipt_amt) as total from fec group by can
 create table fec(
 CMTE_ID varchar(222),CAND_ID varchar(222),CAND_NM varchar(222),CONTBR_NM varchar(222),
 CONTBR_CITY varchar(222),CONTBR_ST varchar(222), CONTBR_ZIP varchar(222),
-CONTBR_EMPLOYER varchar(222),CONTBR_OCCUPATION varchar(222),CONTB_RECEIPT_AMT double precision,
+CONTBR_EMPLOYER varchar(222),CONTBR_OCCUPATION varchar(222),CONTB_RECEIPT_AMT double,
 CONTB_RECEIPT_DT varchar(222),RECEIPT_DESC varchar(222),MEMO_CD varchar(222),
 MEMO_TEXT  varchar(222),FORM_TP varchar(222),FILE_NUM double precision,
 TRAN_ID varchar(222),ELECTION_TP varchar(222),USELESS_COLUMN varchar(222)
