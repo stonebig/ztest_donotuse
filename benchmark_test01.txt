@@ -23,6 +23,7 @@ create 1 index
 ********************
 ** SQlite         **
 ********************
+.timer on
 .header on
 .mod csv
 .separator ","
