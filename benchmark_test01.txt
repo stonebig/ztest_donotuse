@@ -1,4 +1,4 @@
-** benchmark_test01 (analytic load)
+** benchmark_test01 (analytic load) *
 
 From "Practical Medium Data Analytics with Python - Wes McKinney"
 at pydata NewYork 2013 november 16th
